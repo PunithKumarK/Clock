@@ -9,6 +9,7 @@ function updateClock() {
 		min = now.getMinutes(),
 		sec = now.getSeconds(),
 		period = "AM";
+		sector = "AM";
 
 	var months = ["Janaury", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 	var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thrusday", "Friday", "Saturday"]
